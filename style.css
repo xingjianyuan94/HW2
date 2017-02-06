@@ -1,28 +1,61 @@
+
 	body 
 		{
-			color: red;
-			background-color: blue;
+			color: black;
+			background-color: white;
 			font-size: 18pt;
-			font-family: Veranda; Geneva, Arial, Helvetica, sans-serif;  
-			text-align: center;
+			font-family: Veranda; Geneva, Arial, Helvetica, sans-serif, Calibri;  
+			text-align: left;
+			
+		
 		}
 		
-
+		.photo	{
+			float:left;
+			border:none;	
+				}
+				
+		.photo2	{
+			text-align:center;
+			border:none;	
+				}		
 
 		div { background-color:white; text-align:left; margin:0 auto; }
 		
-		p { color: black; font-size: 10pt; }
+		p { color: black; font-size: 11pt; }
 		
-		h1 { font-style:italic; font-weight:bold; }
+		h1 { font-family:Arial; font-weight:bold;
+			text-align:center;
+			/* display:inline-block;
+			position: absolute;
+			left:0;
+			right:0; */}
+		h2 {font-family:Arial; font-weight:bold;}
+		h3 {font-family:Arial; font-weight:normal;text-align:left;}
+		h4 {font-weight:bold; color:black; font-size:20pt; font-family:Arial; font-style:italic;text-align:left;}
+		
 		
 		a { text-decoration:none; }
-		a:link, a:visited { color:green; }
-		a:hover, a:active { text-decoration:underline; color:yellow; }
+		a:link, a:visited { color:blue; }
+		a:hover, a:active { text-decoration:underline; color:#2B383D; }
 		
-		p.subheader { font-weight:bold; color:coral; }
 		
-		.mike {background-color:orange; border:2px solid green; width:75%;}
+		p.contact {font-family:Calibri; font-size:12pt;}
+		p.box {font-family:Calibri; font-size: 13pt;}
+		ul.bullet {font-family:Calibri; font-size: 13pt; margin-left:170px; font-weight:normal;}
+		ul.x {font-family:Calibri; font-size: 15pt;}
 		
-		.footer { font-size:9pt; font-style:italic; text-align:center; line-height:12pt; padding-top:30pt; }
+		.xjy {background-color:#D1D0C4; border-style:solid; width:75%; text-align:left;
+				padding-top: 30px;padding-right: 20px;padding-bottom: 30px;padding-left: 40px;}
+				
+		.xxx {background-color:white; border-style:none; width:75%; text-align:left;
+				padding-top: 30px;padding-right: 20px;padding-bottom: 30px;padding-left: 40px;margin-left:40px;}
+		.footer { font-size:13pt; font-family:Arial; text-align:center; line-height:12pt; padding-top:30pt; }
 		
-		#Welcome_Header { text-align:center; }
+		
+		.header {
+
+			text-align:center;
+			margin:10px;
+			padding-top:30px;
+		}
